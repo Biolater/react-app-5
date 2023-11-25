@@ -1,0 +1,144 @@
+.hero-section .hero-title {
+    font-family: "Raleway";
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 62.5px;
+    color: #fff;
+}
+
+.hero-section .hero-explanation {
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 400;
+    line-height: 32px;
+    margin: 18px 0px 32px;
+}
+
+.hero-section .enroll {
+    padding: 16px 32px;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background: var(--button-bg2);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.hero-section .enroll span {
+    display: flex;
+}
+
+
+.hero-image {
+    width: 446px;
+    height: 582px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.hero-section .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details .detail p:nth-child(1) {
+    color: var(--button-bg1);
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.details .detail p:nth-child(2) {
+    color: var(--button-bg1);
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.detail p {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.detail p span {
+    display: flex;
+}
+
+.detail {
+    position: absolute;
+}
+
+.detail .content {
+    width: 206px;
+    height: 97px;
+    background-color: #fff;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.hero-content {
+    max-width: 457px;
+}
+
+.hero-content-2 {
+    position: relative;
+}
+
+.details .detail:nth-child(1) {
+    left: -190px;
+    top: 80px;
+}
+
+.details .detail:nth-child(2) .content {
+    width: 183px;
+    height: 90px;
+}
+
+.details .detail:nth-child(2) {
+    top: 300px;
+    left: -230px;
+}
+
+
+.details .detail .content {
+    z-index: 10;
+    position: relative;
+}
+
+.details .detail:nth-child(1) .bg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #6F7DFB 0%, #3B448F 100%);
+    position: absolute;
+    border-radius: 24px;
+    top: 8px;
+    left: 8px;
+}
+
+
+.details .detail:nth-child(2) .bg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #6F7DFB 0%, #3B448F 100%);
+    position: absolute;
+    border-radius: 24px;
+    top: 8px;
+    left: 8px;
+}
