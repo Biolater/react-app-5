@@ -2,7 +2,14 @@
 
 :root {
     --button-bg1: #023047;
-    --button-bg2:#da722c;
+    --button-bg2: #da722c;
+    --testimonial-bg1: #6F7DFB;
+    --testimonial-bg2: #DA722C;
+}
+
+
+*{
+    box-sizing: border-box!important;
 }
 
 body {
@@ -40,4 +47,31 @@ h6 {
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    padding:0px 20px;
+}
+
+.button-2{
+    background-color: var(--button-bg2);
+    padding: 16px 32px;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 24px;
+}
+
+
+@media(max-width:1140px){
+    .container{
+        max-width:960px;
+    }
+}
+
+@media(max-width:960px){
+    .container{
+        max-width:720px;
+    }
 }

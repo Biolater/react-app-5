@@ -1,11 +1,15 @@
 import './App.css'
-import { Header } from './components/data'
+import { Header, Testimonials, Courses, OurApps,Footer } from './components/data'
 
 function App() {
 
   return (
     <div>
       <Header/>
+      <Testimonials/>
+      <Courses/>
+      <OurApps/>
+      <Footer/>
     </div>
   )
 }

@@ -1,0 +1,56 @@
+.app {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background-color: black;
+    padding: 20px 31px;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    width: 320px;
+    cursor: pointer;
+}
+
+#apps {
+    padding: 100px 0px;
+}
+
+#apps h1 {
+    color: var(--button-bg1);
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+.apps-explanation {
+    color: var(--button-bg1);
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.apps-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+@media(max-width:1140px){
+    .apps-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .apps-container .app{
+        max-width: 320px;
+        width: 100%;
+    }
+
+    #apps h1{
+        font-size: 40px;
+    }
+}
