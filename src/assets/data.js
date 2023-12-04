@@ -8,6 +8,8 @@ import appStoreIcon from "./appstore.svg";
 import playStoreIcon from "./play-store.svg";
 import footerFacebook from "./footer-facebook.svg";
 import footerInstagram from "./footer-instagram.svg";
+import toggleIcon from "./toggle-button.svg"
+import closeIcon from "./close-button.svg"
 export {
   pencil,
   heroImg,
@@ -18,5 +20,7 @@ export {
   appStoreIcon,
   playStoreIcon,
   footerFacebook,
-  footerInstagram
+  footerInstagram,
+  toggleIcon,
+  closeIcon
 };
